@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "./colors/colors.scss";
+@import "./fonts/fonts.scss";
+
+/* Rolo e tamanho */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* cor da barra */
+::-webkit-scrollbar-track {
+    background: #00E0FF;
+}
+
+/* Cor da barra de rolagem antes de clicar  */
+::-webkit-scrollbar-thumb {
+    background: #00FFC2;
+}
+
+/* Cor da barra de rolagem depois de clicar. */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+body {
+    background-color: $bg-color;
+}
+
+header {
+    text-align: center;
+    padding: 15px 0 10px 10px;
+
+    .headerImg {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        color: $title-color;
+        @include text-style(30px, 'Open Sans');
+    }
+
+    h2 {
+        color: $subtitle-color;
+        @include text-style(25px, 'Open Sans');
+        font-weight: 100;
+    }
+}
+
+div {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: $a-color;
+    @include text-style(15px, 'Open Sans');
+
+    article {
+        box-sizing: border-box;
+        width: 300px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin: 0 16px 0 0;
+        }
+
+        .texto {
+            float: right;
+            margin: 0;
+            color: $a-color;
+        }
+    }
+}
+
+a:hover {
+    border: 2px solid;
+    border-color: #ffffff;
+    transition: 500ms;
+}
+
+/* Se a tela for maior que 550px, faça: */
+@media screen and (min-width: 550px) {
+
+    header {
+        h1 {
+            @include text-style(40px, 'Open Sans');
+            font-weight: bold;
+        }
+
+        h2 {
+            @include text-style(25px, 'Open Sans');
+            font-weight: bold;
+        }
+    }
+
+    article {
+        min-width: 500px;
+        @include text-style(20px, 'Open Sans');
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
