@@ -124,11 +124,19 @@ body {
         width: 400px;
         height: 100px;
     }
+
+    .rodape {
+        margin-top: 150px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .lista__item {
         width: 500px;
         height: 200px;
+    }
+
+    .rodape {
+        margin-top: 150px;
     }
 }
