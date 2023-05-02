@@ -1,6 +1,9 @@
 @import '../node_modules/scss-reset/reset';
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
-@import "./colors/colors.scss";
+
+$black: #000000;
+$purple: #7900FF;
+$white: #FFFFFF;
 
 /* Rolo e tamanho */
 ::-webkit-scrollbar {
