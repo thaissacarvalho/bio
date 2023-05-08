@@ -665,7 +665,7 @@ body main section a {
 
 .rodape {
   display: flex;
-  height: 15vh;
+  height: 10vh;
   align-items: center;
 }
 .rodape .rodape__texto {
