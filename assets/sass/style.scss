@@ -1,0 +1,61 @@
+@import '../node_modules/scss-reset/reset';
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+$black: #000000;
+$purple: #7900FF;
+$white: #FFFFFF;
+
+/* Rolo e tamanho */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* cor da barra */
+::-webkit-scrollbar-track {
+    background: $black;
+}
+
+/* Cor da barra de rolagem antes de clicar  */
+::-webkit-scrollbar-thumb {
+    background: $purple;
+}
+
+/* Cor da barra de rolagem depois de clicar. */
+::-webkit-scrollbar-thumb:hover {
+    background: $black;
+}
+
+body {
+    background-color: $black;
+    font-family: 'Tajawal', sans-serif;
+    color: $white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    height: 20vh;
+}
+
+.cabecalho__imagem {
+    width: 150px;
+    padding-left: 20px; 
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.rodape {
+    height: 50px;
+    padding: 20px 0 0 20px;
+}
+
+.rodape__imagem {
+    width: 150px;
+}
