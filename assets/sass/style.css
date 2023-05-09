@@ -606,7 +606,7 @@ body {
   height: 100vh;
 }
 body main {
-  height: 70vh;
+  height: 80vh;
 }
 body main section {
   display: flex;
@@ -621,7 +621,7 @@ body main section a {
 .cabecalho {
   display: flex;
   justify-content: flex-start;
-  height: 15vh;
+  height: 10vh;
 }
 .cabecalho .cabecalho__imagem {
   width: 220px;
@@ -634,12 +634,12 @@ body main section a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 .container .botao__link {
   background-color: #7900FF;
-  width: 300px;
-  height: 70px;
+  width: 250px;
+  height: 60px;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -649,7 +649,7 @@ body main section a {
 }
 .container .botao__link .botao__imagem {
   margin-left: 20px;
-  width: 50px;
+  width: 40px;
 }
 .container .botao__link .botao__texto {
   font-size: 1.5rem;
@@ -670,7 +670,7 @@ body main section a {
 }
 .rodape .rodape__texto {
   padding-left: 20px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .rodape .rodape__autor {
