@@ -4,6 +4,6 @@
 
 @layer components {
     body {
-        @apply w-full bg-lightPurple;
+        @apply w-full bg-style-white;
     }
 }

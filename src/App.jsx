@@ -1,8 +1,8 @@
-import Linkbio from './Components/Linkbio';
+import Home from './Components/Home';
 
 function App() {
   return (
-      <Linkbio/>
+      <Home/>
   )
 }
 
