@@ -6,10 +6,10 @@ export default function SocialMedia() {
     
     return (
         <div className="flex justify-center items-center gap-6">
-            <a href="">
+            <a href="https://github.com/thaissacarvalho">
                 <FaGithub className={faIcons}/>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/thaissa-carvalho-dev/">
                 <FaLinkedin className={faIcons}/>
             </a>
         </div>
