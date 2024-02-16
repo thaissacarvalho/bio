@@ -15,5 +15,5 @@ O projeto contém acima a hashtag bastante usada no linkedin de "Open To Work" q
 - Vite
 
 - **E-mail:** thaissa-carvalho@outlook.com
-- **LinkedIn:** [Seu Perfil no LinkedIn](https://www.linkedin.com/in/thaissa-carvalho-dev/)
-- **GitHub:** [Seu Perfil no GitHub](https://github.com/thaissacarvalho)
+- **LinkedIn:** [Meu Perfil no LinkedIn](https://www.linkedin.com/in/thaissa-carvalho-dev/)
+- **GitHub:** [Meu Perfil no GitHub](https://github.com/thaissacarvalho)
