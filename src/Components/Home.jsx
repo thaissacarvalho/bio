@@ -1,17 +1,11 @@
-import Link from './Link/Link.jsx';
-import Titles from './Titles/Titles.jsx';
+import Header from "./Header/Header";
+import Main from "./Main/Main";
 
 export default function Home() {
     return (
-        <main className="w-full h-screen flex flex-col justify-center items-center gap-8">
-            <Titles />
-
-            <span className="flex flex-col gap-4">
-                <Link link="https://thaissacarvalho.vercel.app/" nameLink="Site" />
-                <Link link="https://github.com/thaissacarvalho" nameLink="Github" />
-                <Link link="mailto:thaissa.dos2003@outlook.com" nameLink="Email" />
-                <Link link="https://www.linkedin.com/in/thaissa-carvalho-dos-santos/" nameLink="LinkedIN" />
-            </span>
-        </main>
+        <div className="bg-[#F8F8FF] w-[375px] h-screen border-2 border-solid border-style-purple rounded-md flex flex-col justify-center items-center gap-8">
+            <Header />
+            <Main/>
+        </div>
     )
 }

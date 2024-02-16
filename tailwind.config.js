@@ -7,11 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'style-black': '#0E0D0E',
-        'style-white': '#F1F0F0',
+        'style-black': '#000000',
+        'style-white': '#F8F8FF',
         'style-purple': '#7900FF',
-        'style-light-purple': '#887DFD',
-        'style-turquoise': '#14C8C8',
       },
     },
   },
