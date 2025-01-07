@@ -5,7 +5,7 @@ export default function Profile() {
 
             <span className="flex flex-col items-center">
                 <h2 className="text-lg font-bold">Thaissa Carvalho</h2>
-                <h3 className="text-sm font-bold text-style-purple">Desenvolvedora Full Stack</h3>
+                <h3 className="text-[12px] font-bold text-style-purple text-center px-5 hover:text-green-500">Desenvolvedora Full Stack | Typescript | Javascript | React | Node.js | Express | Nest.js | MySQL | PostgreSQL | MongoDB | Docker | NGINX | PM2</h3>
             </span>
         </div>
     )
