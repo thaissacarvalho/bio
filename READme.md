@@ -5,7 +5,7 @@ Este é o meu linkbio pessoal, onde você pode se direcionar a versão mais atua
 
 O projeto contém acima a hashtag bastante usada no linkedin de "Open To Work" que ao passar o mouse em cima, pode representar se estou disponivel propostas de trabalho, caso esteja verde ou indisponivel, onde o botão poderá ficar um pouco menos visivel e dá cor vermelha.
 
-![Imagem do Projeto](./public/Biolink.jpg)
+![Imagem do Projeto](./public/Biolink.png)
 
 ## Tecnologias Usadas
 
@@ -14,6 +14,6 @@ O projeto contém acima a hashtag bastante usada no linkedin de "Open To Work" q
 - Tailwind CSS
 - Vite
 
-- **E-mail:** thaissa-carvalho@outlook.com
-- **LinkedIn:** [Meu Perfil no LinkedIn](https://www.linkedin.com/in/thaissa-carvalho-dev/)
+- **E-mail:** thaissa.dos2003@outlook.com
+- **LinkedIn:** [Meu Perfil no LinkedIn](https://www.linkedin.com/in/thaissacarvalho-ti/)
 - **GitHub:** [Meu Perfil no GitHub](https://github.com/thaissacarvalho)
